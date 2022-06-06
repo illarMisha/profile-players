@@ -1,0 +1,148 @@
+@import "_fonts";
+@import "_null";
+@import "_classes";
+
+.header{
+    display: flex;
+    flex-direction: column;
+    &__menu{
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        background-color:#121211;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        .header__nav{
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 43px;
+            color: #FFFFFF;
+            text-transform:uppercase;
+            cursor: pointer;
+        }
+        .header__nav:first-child{
+            margin-left: 140px;
+        }
+        .header__nav:last-child{
+            margin-right: 140px;
+        }
+        .header__logo{
+            .header-logo{
+                width: 90px;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+    &__profile{
+        margin-top: 90px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items:center;
+        .profile__img{
+            width: 15%;
+            .profile-photo{
+                width: 100%;
+            }
+        }
+        .character__players{
+            width: 60%;
+            display: flex;
+            justify-content: space-between;
+            .character{
+                padding-left: 35px;
+                display: flex;
+                flex-direction: column;
+                .character__profile{
+                    font-weight: 700;
+                    font-size: 36px;
+                    color: #FFFFFF;
+                    margin-top: 25px;
+                }
+                .character__profile:first-child{
+                    margin-top: 0;
+                }
+            }
+            .social__network{
+                padding-right: 35px;
+                display: flex;
+                flex-direction: column;
+                .nav-social{
+                    cursor: pointer;
+                    font-weight: 700;
+                    font-size: 36px;
+                    color: #FFFFFF;
+                    text-decoration: none;
+                    margin-top: 25px;
+                }
+                .nav-social:first-child{
+                    margin-top: 0;
+                }
+            }
+        }
+        .logo__team{
+            width: 25%;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            .team-photo{
+                width: 100%;
+            }
+            .new__team{
+                cursor: pointer;
+                font-weight: 700;
+                font-size: 16px;
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+        }
+    }
+    &__trophies{
+        margin-top: 50px;
+        border: 5px solid #FFFFFF;
+        display: flex;
+        flex-direction: column;
+
+        .title__trophies{
+            margin-left: 30px;
+            font-weight: 700;
+            font-size: 36px;
+            color: #FFFFFF;
+            margin-top: 80px;
+        }
+        .title__team{
+            margin-left: 30px;
+            font-weight: 700;
+            font-size: 36px;
+            color: #FFFFFF;
+            margin-top: 30px;
+        }
+        .trophies{
+            margin-top: 30px;
+            margin-left: 30px;
+            display: flex;
+            width: 150px;
+            .img__trophies{
+                width: 100%;
+            }
+        }
+        .team{
+            margin-top: 30px;
+            margin-bottom: 30px;
+            display: flex;
+            width: 150px;
+            .logo__team{
+                margin-left: 30px;
+                width: 100%
+            }
+        }
+    }
+}
+
+@import "_adaptive.scss";
+
