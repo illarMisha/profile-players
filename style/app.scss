@@ -54,6 +54,7 @@
             width: 60%;
             display: flex;
             justify-content: space-between;
+            align-items: center;
             .character{
                 padding-left: 35px;
                 display: flex;
@@ -137,8 +138,11 @@
             display: flex;
             width: 150px;
             .logo__team{
-                margin-left: 30px;
+                margin-left: 5px;
                 width: 100%
+            }
+            .logo__team:first-child{
+                margin-left: 25px;
             }
         }
     }

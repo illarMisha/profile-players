@@ -1,15 +1,392 @@
-@media (max-width:1700px){
-
+@media (max-width:1600px){
+    .main{
+        margin-left: 100px;
+        margin-right: 100px;
+        &__profile{
+            margin-top: 50px;
+            .character__players{
+                .character{
+                    .character__profile{
+                        font-size: 32px;
+                    }
+                }
+                .social__network{
+                    .nav-social{
+                        font-size: 32px;
+                    }
+                }
+            }
+        }
+        &__trophies{
+            .title__trophies{
+                font-size: 32px;
+                margin-top: 60px;
+            }
+            .title__team{
+                font-size: 32px;
+            }
+        }
+    }
 }
-@media (max-width:1050px){
-   
+@media (max-width:1300px){
+    .header{
+        &__menu{
+            .header__nav{
+                font-size: 26px;
+            }
+            .header__nav:first-child{
+                margin-left: 100px;
+            }
+            .header__nav:last-child{
+                margin-right: 100px;
+            }
+            .header__logo{
+                .header-logo{
+                    width: 70px;
+                }
+            }
+        }
+    }
+    .main{
+        margin-left: 50px;
+        margin-right: 50px;
+        &__profile{
+            .character__players{
+                .character{
+                    .character__profile{
+                        font-size: 26px;
+                        margin-top: 20px;
+                    }
+                }
+                .social__network{
+                    .nav-social{
+                        font-size: 26px;
+                        margin-top: 20px;
+                    }
+                }
+            }
+            .logo__team{
+                .new__team{
+                    font-size: 14px;
+                }
+            }
+        }
+        &__trophies{
+            border: 3px solid #FFFFFF;
+            .title__trophies{
+                font-size: 26px;
+                margin-top: 50px;
+            }
+            .title__team{
+                font-size: 26px;
+            }
+            .trophies{
+                width: 100px;
+            }
+            .team{
+                width: 100px;
+            }
+        }
+    }
 }
-@media (max-width:850px){
-    
+@media (max-width:970px){
+    .header{
+        &__menu{
+            .header__nav{
+                font-size: 22px;
+            }
+            .header__nav:first-child{
+                margin-left: 100px;
+            }
+            .header__nav:last-child{
+                margin-right: 100px;
+            }
+            .header__logo{
+                .header-logo{
+                    width: 60px;
+                }
+            }
+        }
+    }
+    .main{
+        margin-left: 50px;
+        margin-right: 50px;
+        &__profile{
+            .character__players{
+                .character{
+                    .character__profile{
+                        font-size: 20px;
+                        margin-top: 15px;
+                    }
+                }
+                .social__network{
+                    .nav-social{
+                        font-size: 20px;
+                        margin-top: 15px;
+                    }
+                }
+            }
+            .logo__team{
+                .new__team{
+                    font-size: 12px;
+                }
+            }
+        }
+        &__trophies{
+            border: 3px solid #FFFFFF;
+            .title__trophies{
+                font-size: 20px;
+                margin-top: 30px;
+            }
+            .title__team{
+                font-size: 20px;
+            }
+            .trophies{
+                margin-top: 15px;
+                width: 80px;
+            }
+            .team{
+                margin-top: 15px;
+                width: 80px;
+            }
+        }
+    }
+}
+@media (max-width:768px){
+    .header{
+        &__menu{
+            .header__nav{
+                font-size: 20px;
+            }
+            .header__nav:first-child{
+                margin-left: 50px;
+            }
+            .header__nav:last-child{
+                margin-right: 50px;
+            }
+            .header__logo{
+                .header-logo{
+                    width: 50px;
+                }
+            }
+        }
+    }
+    .main{
+        margin-left: 20px;
+        margin-right: 20px;
+        &__profile{
+            .character__players{
+                .character{
+                    .character__profile{
+                        font-size: 16px;
+                        margin-top: 10px;
+                    }
+                }
+                .social__network{
+                    .nav-social{
+                        font-size: 16px;
+                        margin-top: 10px;
+                    }
+                }
+            }
+            .logo__team{
+                .new__team{
+                    font-size: 10px;
+                }
+            }
+        }
+        &__trophies{
+            border: 3px solid #FFFFFF;
+            .title__trophies{
+                font-size: 18px;
+                margin-top: 20px;
+                margin-left: 20px;
+            }
+            .title__team{
+                margin-left: 20px;
+                margin-top: 15px;
+                font-size: 18px;
+            }
+            .trophies{
+                margin-left: 20px;
+                margin-top: 10px;
+                width: 60px;
+            }
+            .team{
+                margin-top: 10px;
+                width: 60px;
+                .logo__team:first-child{
+                    margin-left: 15px;
+                }
+            }
+        }
+    }
 }
 @media (max-width:600px){
-    
+    .header{
+        &__menu{
+            padding-top: 10px;
+            padding-bottom: 10px;
+            .header__nav{
+                font-size: 16px;
+            }
+            .header__nav:first-child{
+                margin-left: 30px;
+            }
+            .header__nav:last-child{
+                margin-right: 30px;
+            }
+            .header__logo{
+                .header-logo{
+                    margin-top: 5px;
+                    width: 40px;
+                }
+            }
+        }
+    }
+    .main{
+        margin-left: 20px;
+        margin-right: 20px;
+        &__profile{
+            .profile__img{
+                width: 30%;
+                .profile-photo{
+                    width: 100%;
+                    max-width: 120px;
+                }
+            }
+            .character__players{
+                width: 70%;
+                .character{
+                    .character__profile{
+                        font-size: 16px;
+                        margin-top: 10px;
+                    }
+                }
+                .social__network{
+                    padding-right: 0px;
+                    .nav-social{
+                        font-size: 16px;
+                        margin-top: 10px;
+                    }
+                }
+            }
+            .logo__team{
+                width: 100%;
+                margin-top: 30px;
+                .team-photo{
+                    margin: 0 auto;
+                    width: 150px;
+                }
+                .new__team{
+                    font-size: 10px;
+                }
+            }
+        }
+        &__trophies{
+            margin-top: 30px;
+            border: 3px solid #FFFFFF;
+            .title__trophies{
+                font-size: 16px;
+                margin-top: 20px;
+                margin-left: 20px;
+            }
+            .title__team{
+                margin-left: 20px;
+                margin-top: 15px;
+                font-size: 16px;
+            }
+            .trophies{
+                margin-left: 20px;
+                margin-top: 10px;
+                width: 50px;
+            }
+            .team{
+                margin-top: 10px;
+                width: 50px;
+                .logo__team:first-child{
+                    margin-left: 15px;
+                }
+            }
+        }
+    }
 }
-@media (max-width:440px){
-    
+@media (max-width:480px){
+    .header{
+        &__menu{
+            .header__nav{
+                font-size: 14px;
+            }
+            .header__logo{
+                .header-logo{
+                    margin-top: 10px;
+                    width: 30px;
+                }
+            }
+        }
+    }
+    .main{
+        &__profile{
+            .profile__img{
+                width: 30%;
+                .profile-photo{
+                    width: 100%;
+                    max-width: 100px;
+                }
+            }
+            .character__players{
+                width: 70%;
+                .character{
+                    .character__profile{
+                        font-size: 14px;
+                        margin-top: 10px;
+                    }
+                }
+                .social__network{
+                    padding-right: 0px;
+                    .nav-social{
+                        font-size: 14px;
+                        margin-top: 10px;
+                    }
+                }
+            }
+            .logo__team{
+                width: 100%;
+                margin-top: 30px;
+                .team-photo{
+                    margin: 0 auto;
+                    width: 110px;
+                }
+                .new__team{
+                    font-size: 10px;
+                }
+            }
+        }
+        &__trophies{
+            margin-top: 30px;
+            border: 3px solid #FFFFFF;
+            .title__trophies{
+                font-size: 14px;
+                margin-top: 10px;
+                margin-left: 10px;
+            }
+            .title__team{
+                margin-left: 10px;
+                margin-top: 10px;
+                font-size: 14px;
+            }
+            .trophies{
+                margin-left: 10px;
+                margin-top: 10px;
+                width: 40px;
+            }
+            .team{
+                margin-top: 10px;
+                width: 40px;
+                .logo__team:first-child{
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
 }
